@@ -38,6 +38,7 @@ To add a new entry, follow the template below:
 **Short descriptive name**
 - Link to kernel - direct link to file on GitHub containing kernel
 - Author - contributor of kernel, if can be located
+- _(optional, but preferred:)_ Tags - for ctrl-f finding, eg “attention variant”, “activation”, “matmul”, “quant/dequant”
 - _(optional, but preferred:)_ Description - should make clear which operations are done, for which input sizes, ...
 - _(optional, but preferred:)_ Minimal usage example in python
 - Triton Version - e.g., "Triton v2.1.0"
