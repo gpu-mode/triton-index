@@ -1,16 +1,26 @@
 # triton-index
-Cataloging released Triton kernels.
 
-This repo is meant to collect, predominantly, community-written and published Triton kernels. Triton can often be easier to understand or to start writing for a Python programmer only experienced with PyTorch, and it has recently seen an uptick in its usage--there is more Triton code around the web than there was before! This repo attempts to collect these kernels in one place, for people looking to learn Triton, seeing if a similar kernel already exists, or more.
+Goal of this repo:
+- **Catalog openly available Triton kernels**, so (i) practitioners save work and (ii) learners have world-class examples to learn from.
+- **Surface which Triton kernels are still needed by the community**, so (i) work of the community can be more targeted, and (ii) eager people new to our community have projects to show off their skill.
+
+Triton is easier to understand and start with than CUDA, especially for Python programmers experienced with PyTorch. And it has recently seen an uptick in its usage -- there is more Triton code around the web than there was before!
+
+This repo collects these kernels in one place, for the benefit of practitioners and learners in our comunity.
+
+Contibutions are very, very welcome!
 
 ## Kernels
 
+todo
 
 
+## Other Libraries and Resources
 
-## Other Libraries + Resources
+- [A Practioner's Guide to Triton](https://www.youtube.com/watch?v=DdTsX6DQk24&t=93s) is a great gentle intro to Triton (here's the [accompanying notebook](https://github.com/cuda-mode/lectures/blob/main/lecture%2014/A_Practitioners_Guide_to_Triton.ipynb)).
+    - _Note from Umer: It feels weird to include my own work, but I was told the lecture and notebook are really helpful!_
 
-- [The Triton Tutorials](https://triton-lang.org/main/getting-started/tutorials/index.html) are a great place to get started learning Triton.
+- [The Triton Tutorials](https://triton-lang.org/main/getting-started/tutorials/index.html) are a great intermediate resources.
 - [Flash Attention](https://github.com/Dao-AILab/flash-attention/tree/main/flash_attn/ops/triton) has a number of useful Triton kernels.
 - [Unsloth](https://github.com/unslothai/unsloth) contains many ready-to-use Triton kernels especially for finetuning applications
 - [flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention) has a massive number of Linear attention or subquadratic attention replacement architectures, written using several different approaches of parallelization in Triton.
@@ -18,14 +28,20 @@ This repo is meant to collect, predominantly, community-written and published Tr
 
 ## Contributing
 
-To add a new entry, follow this template:
+To add a new entry, follow the template below:
 
 
-**Descriptive Entry Title/Name**
-- Github Repo: (link to repository)
-- Author: (contributor of kernel, if can be located)
-- Link to kernel: (direct link to file containing kernel definition?)
-- Triton Version: (e.g., "Triton v2.1.0")
-- Other Notes: (e.g. "Useful example to reference of a quantization kernel", "cleanly commented, good for learning purposes", "Optimized for H100", ...)
+**Short descriptive name**
+- Link to kernel - direct link to file on GitHub containing kernel
+- Author - contributor of kernel, if can be located
+- _(optional, but preferred:)_ Description - should make clear which operations are done, for which input sizes, ...
+- _(optional, but preferred:)_ Minimal usage example in python
+- Triton Version - e.g., "Triton v2.1.0"
+- _(optional:)_ Other Notes - e.g. "Useful example to reference of a quantization kernel", "cleanly commented, good for learning purposes", "Optimized for H100", ...)
 
 
+
+---
+---
+
+Brought to you by the communtiy, initiated by [Haley](https://x.com/haileysch__) and [Umer](https://x.com/UmerHAdil) ❤️
