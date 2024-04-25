@@ -1,18 +1,18 @@
 # triton-index
 
-Goal of this repo:
+Goals of this repo:
 - **Catalog openly available Triton kernels**, so
     - (i) practitioners save work and
     - (ii) learners have world-class examples to learn from.
 - **Surface which Triton kernels are still needed by the community**, so
     -  (i) work of the community can be more targeted, and
-    - (ii) eager people new to our community have projects to show off their skill.
+    - (ii) eager people new to our community have projects to demonstrate their skill.
 
 Triton is easier to understand and start with than CUDA, especially for Python programmers experienced with PyTorch. And it has recently seen an uptick in its usage -- there is more Triton code around the web than there was before!
 
-This repo collects these kernels in one place, for the benefit of practitioners and learners in our comunity.
+This repo collects these kernels in one place, for the benefit of practitioners and learners in our community.
 
-Contibutions are very, very welcome!
+Contributions are very, very welcome!
 
 ## Kernels
 
