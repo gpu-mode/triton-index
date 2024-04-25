@@ -22,7 +22,7 @@ todo
 ## Other Libraries and Resources
 
 - [A Practioner's Guide to Triton](https://www.youtube.com/watch?v=DdTsX6DQk24&t=93s) is a great gentle intro to Triton (here's the [accompanying notebook](https://github.com/cuda-mode/lectures/blob/main/lecture%2014/A_Practitioners_Guide_to_Triton.ipynb)).
-    - _Note from Umer: It feels weird to include my own work, but I was told the lecture and notebook are really helpful!_
+    - _Note from Umer: It feels weird to include my own work, but [many](https://twitter.com/jeremyphoward/status/1781438834561126776) [people](https://twitter.com/marksaroufim/status/1778978773721092274) said the lecture was very helpful!_
 
 - [The Triton Tutorials](https://triton-lang.org/main/getting-started/tutorials/index.html) are a great intermediate resources.
 - [Flash Attention](https://github.com/Dao-AILab/flash-attention/tree/main/flash_attn/ops/triton) has a number of useful Triton kernels.
