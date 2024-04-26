@@ -25,6 +25,14 @@ Contributions are very, very welcome!
 - Triton Version: Triton v2.1.0+
 - Other Notes: Based on the Triton LayerNorm tutorial: https://triton-lang.org/main/getting-started/tutorials/05-layer-norm.html
 
+**Flash-Decoding / Split-KV Attention**
+- Link: https://github.com/facebookresearch/xformers/blob/main/xformers/ops/fmha/triton_splitk.py
+- Author: Daniel Haziza, others?
+- Tags: "attention", "decoding"
+- Description: A Triton kernel for performing attention while additionally parallelizing over the sequence dimension of the keys and values. Useful for fast, low-batch, long-context decoding. Very feature-rich--includes support for paged and/or quantized KV caches.
+- Triton Version: Triton v2.1.0+
+- Other Notes: Accompanied the release of the [Flash-Decoding](https://pytorch.org/blog/flash-decoding/) blogpost. See it for more details and an explanation.
+
 
 ## Other Libraries and Resources
 
@@ -35,6 +43,7 @@ Contributions are very, very welcome!
 - [Flash Attention](https://github.com/Dao-AILab/flash-attention/tree/main/flash_attn/ops/triton) has a number of useful Triton kernels.
 - [Unsloth](https://github.com/unslothai/unsloth) contains many ready-to-use Triton kernels especially for finetuning applications
 - [flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention) has a massive number of Linear attention or subquadratic attention replacement architectures, written using several different approaches of parallelization in Triton.
+- [xformers](https://github.com/facebookresearch/xformers/) contains many [Triton kernels](https://github.com/facebookresearch/xformers/tree/main/xformers/triton) throughout, including some [attention kernels](https://github.com/facebookresearch/xformers/blob/main/xformers/ops/fmha/triton_splitk.py) such as [Flash-Decoding](https://pytorch.org/blog/flash-decoding/).
 
 
 ## Contributing
