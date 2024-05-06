@@ -16,23 +16,8 @@ Contributions are very, very welcome!
 
 ## Kernels
 
-**Triton RMSNorm + Residual**
-- Link: https://github.com/state-spaces/mamba/blob/main/mamba_ssm/ops/triton/layernorm.py
-- Author: Tri Dao
-- Tags: "norm"
-- Description: Performs RMSNorm/LayerNorm on an input while also optionally adding a residual connection simultaneously. Supports row sizes up to 65536 // (bytes per element).
-- Minimal Usage: `from mamba_ssm.ops.triton.layernorm import rms_norm_fn, layer_norm_fn ; out = rms_norm_fn(x, weight, bias, residual=residual, residual_in_fp32=True, eps=1e-6)` 
-- Triton Version: Triton v2.1.0+
-- Other Notes: Based on the Triton LayerNorm tutorial: https://triton-lang.org/main/getting-started/tutorials/05-layer-norm.html
-
-**Flash-Decoding / Split-KV Attention**
-- Link: https://github.com/facebookresearch/xformers/blob/main/xformers/ops/fmha/triton_splitk.py
-- Author: Daniel Haziza, others?
-- Tags: "attention", "decoding"
-- Description: A Triton kernel for performing attention while additionally parallelizing over the sequence dimension of the keys and values. Useful for fast, low-batch, long-context decoding. Very feature-rich--includes support for paged and/or quantized KV caches.
-- Triton Version: Triton v2.1.0+
-- Other Notes: Accompanied the release of the [Flash-Decoding](https://pytorch.org/blog/flash-decoding/) blogpost. See it for more details and an explanation.
-
+- [Here's the link](kernel_overview.md) of an ctrl-f searchable overview
+- The kernel entries are in the [/kernels directory](/kernels/)
 
 ## Other Libraries and Resources
 
@@ -48,19 +33,12 @@ Contributions are very, very welcome!
 
 ## Contributing
 
-To add a new entry, follow the template below:
+To add a new entry:
+1. Copy [kernels/0000_template.md](kernels/0000_template.md) and fill it out
+2. Add your entry to [kernel_overview.md](kernel_overview.md)
+3. That's it!
 
-
-**Short descriptive name**
-- Link to kernel - direct link to file on GitHub containing kernel
-- Author - contributor of kernel, if can be located
-- _(optional, but preferred:)_ Tags - for ctrl-f finding, eg “attention variant”, “activation”, “matmul”, “quant/dequant”
-- _(optional, but preferred:)_ Description - should make clear which operations are done, for which input sizes, ...
-- _(optional, but preferred:)_ Minimal usage example in python
-- Triton Version - e.g., "Triton v2.1.0"
-- _(optional:)_ Other Notes - e.g. "Useful example to reference of a quantization kernel", "cleanly commented, good for learning purposes", "Optimized for H100", ...)
-
-
+<br/>
 
 ---
 
