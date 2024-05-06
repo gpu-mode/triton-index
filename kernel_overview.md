@@ -1,3 +1,5 @@
+# Triton Index
+
 | index | name | tags | link |
 | - | - | - | - |
 | 1 | Triton RMSNorm + Residual | norm | [link](kernels/0001_Triton_RMSNorm+Residual) |
