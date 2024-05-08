@@ -7,8 +7,8 @@
 **Tags:** Activation
 
 **Description:** <br/>
-- exact gelgu forward
-- exact gelgu backward
+- exact geglu forward
+- exact geglu backward
 - approximate (faster) geglu forward
 - approximate (faster) geglu backward
 
