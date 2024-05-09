@@ -29,6 +29,9 @@ Contributions are very, very welcome!
 - [Unsloth](https://github.com/unslothai/unsloth) contains many ready-to-use Triton kernels especially for finetuning applications
 - [flash-linear-attention](https://github.com/sustcsonglin/flash-linear-attention) has a massive number of Linear attention or subquadratic attention replacement architectures, written using several different approaches of parallelization in Triton.
 - [xformers](https://github.com/facebookresearch/xformers/) contains many [Triton kernels](https://github.com/facebookresearch/xformers/tree/main/xformers/triton) throughout, including some [attention kernels](https://github.com/facebookresearch/xformers/blob/main/xformers/ops/fmha/triton_splitk.py) such as [Flash-Decoding](https://pytorch.org/blog/flash-decoding/).
+- [Applied AI](https://github.com/pytorch-labs/applied-ai) contains kernels such as a Triton MoE, fused softmax for training and inference
+- [AO](https://github.com/pytorch/ao/tree/main/torchao/prototype) contains kernels for GaLoRe, HQQ and DoRA
+- [torch.compile](https://twitter.com/johnowhitaker/status/1746275479806742664) can codegenerate Triton kernels from PyTorch code
 
 
 ## Contributing
