@@ -11,4 +11,6 @@
 | 7 | Swiglu | Activation | [link](kernels/0007_Swiglu.md) |
 | 8 | Gemm Int4 | Quant, Dequant, Matmul, Gemm | [link](kernels/0008_Gemm_Int4.md) |
 | 9 | Gemm Int8 | Quant, Dequant, Matmul, Gemm | [link](kernels/0009_Gemm_Int8.md) |
-| n+1 | your contribution | its tags |  |
+| 10 | Batched Conv2D | Conv | [link](kernels/0010_Conv2D.md) |
+| 11 | Batched Addition | Add | [link](kernels/0011_Add.md) |
+| 12 | Batched Patchng | Rearranging | [link](kernels/0012_Patching.md) |
