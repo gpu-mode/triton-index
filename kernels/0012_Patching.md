@@ -2,7 +2,7 @@
 
 **Link:** https://github.com/cmeraki/vit.triton/blob/main/vit/kernels/patching.py
 
-**Author:** Romit
+**Author:** [Romit Jain](https://github.com/romitjain)
 
 **Tags:** Rearranging
 
