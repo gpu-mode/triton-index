@@ -2,7 +2,7 @@
 
 **Link:** https://github.com/microsoft/DeepSpeed/blob/master/deepspeed/ops/sparse_attention/matmul.py
 
-**Author:** Microsoft Deepspeed, Philippe Tillet (adapted from his repo)
+**Author:** Microsoft Deepspeed, Philippe Tillet (adapted from his [repo](https://github.com/ptillet/torch-blocksparse))
 
 **Tags:** Sparsity, Matmul
 
