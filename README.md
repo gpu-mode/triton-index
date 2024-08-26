@@ -32,6 +32,7 @@ Contributions are very, very welcome!
 - [Applied AI](https://github.com/pytorch-labs/applied-ai) contains kernels such as a Triton MoE, fused softmax for training and inference
 - [AO](https://github.com/pytorch/ao/tree/main/torchao/prototype) contains kernels for GaLoRe, HQQ and DoRA
 - [torch.compile](https://twitter.com/johnowhitaker/status/1746275479806742664) can codegenerate Triton kernels from PyTorch code
+- [Liger Kernel](https://github.com/linkedin/Liger-Kernel) is a collection of Triton kernels designed specifically for LLM training
 
 
 ## Contributing
