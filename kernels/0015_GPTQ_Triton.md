@@ -9,7 +9,7 @@ A Triton kernel for GPTQ inference
 
 Triton Version: triton >= 2.0.0
 
-Other Notes:
+Other Notes: None
 
 
 Id in triton index: 0015
