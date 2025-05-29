@@ -2,7 +2,7 @@
 
 | index | name | tags | link |
 | - | - | - | - |
-| 1 | Triton RMSNorm + Residual | norm | [link](kernels/0001_Triton_RMSNorm+Residual) |
+| 1 | Triton RMSNorm + Residual | norm | [link](kernels/0001_Triton_RMSNorm+Residual.md) |
 | 2 | Flash-Decoding / Split-KV Attention | attention, decoding | [link](kernels/0002_Flash-Decoding_Split-KV_Attention.md) |
 | 3 | Cross entropy loss | loss | [link](kernels/0003_Cross_entropy_loss.md) |
 | 4 | Geglu | Activation | [link](kernels/0004_Geglu.md) |
