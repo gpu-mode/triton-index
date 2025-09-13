@@ -16,4 +16,6 @@
 | 12 | Batched Patchng | Rearranging | [link](kernels/0012_Patching.md) |
 | 13 | Block-Sparse Matrix Multiplication | Sparsity, Matmul | [link](kernels/0013_Sparse_Matmul.md) |
 | 14 | Fused Linear Cross Entropy | Linear Cross Entropy | [link](kernels/0014_Fused_Linear_Cross_Entropy.md) |
+| 15 | GPTQ Inference | GPTQ | [link](kernels/0015_GPTQ_Triton.md) |
+| 16 | Pairwise Lp Distance | Distance | [link](kernels/0016_Pairwise_Lp_Distance.md) |
 | n+1 | your contribution | its tags |  |
